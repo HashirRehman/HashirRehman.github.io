@@ -11,10 +11,13 @@ Version      : 1.0
     jQuery(document).ready(function() {
 
         /*START PRELOADED*/
-        $(window).on('load', function() {
-            $('.preloader').fadeOut();
-            $('.preloader-area').delay(350).fadeOut('slow');
-        });
+        // $(window).on('load', function() {
+        //     $('.preloader').fadeOut();
+        //     $('.preloader-area').delay(350).fadeOut();
+        // });
+        $(window).on("load",function(){
+            $("#preloader").fadeOut('slow');
+       });
         /*END PRELOADED*/
 
         /*START MAGNIFICENT POPUP JS*/

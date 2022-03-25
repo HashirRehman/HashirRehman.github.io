@@ -382,7 +382,7 @@ fieldset {
     width: 100%;
 }
 a.slide-btn {
-    background: #4971ff !important;
+    background: #4971ff;
     color: #fff;
     display: inline-block;
     font-weight: 400;

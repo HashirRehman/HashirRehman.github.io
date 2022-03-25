@@ -1493,6 +1493,7 @@ window.particlesJS = function(tag_id, params){
   var pJS_tag = document.getElementById(tag_id),
       pJS_canvas_class = 'particles-js-canvas-el',
       exist_canvas = pJS_tag.getElementsByClassName(pJS_canvas_class);
+      
 
   /* remove canvas if exists into the pJS target tag */
   if(exist_canvas.length){

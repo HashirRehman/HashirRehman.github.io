@@ -34,6 +34,12 @@
 .fa-4x {
   font-size: 4em;
 }
+.fa-rails{
+  background: url('../img/icons/rails.png');
+  height: 20px;
+  width: 20px;
+  display: block;
+}
 .fa-5x {
   font-size: 5em;
 }
